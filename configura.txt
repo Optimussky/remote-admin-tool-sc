@@ -1,0 +1,10 @@
+## NOTIFICACIONES EN WINDOWS
+
+#URL= https://www.youtube.com/watch?v=5EHEG4gMCNs
+	import winotify#pip install winotify
+
+## FREE ICONS
+#URL=https://freeicons.io/icon-list/mentoring-and-training-icon-set-30814
+
+
+
