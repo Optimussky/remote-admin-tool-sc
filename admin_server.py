@@ -3,7 +3,7 @@
 import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-#local_pc = "192.168.1.131"
+
 local_pc = ""
 port = 12345
 
