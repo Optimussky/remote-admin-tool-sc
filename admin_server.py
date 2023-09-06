@@ -3,11 +3,12 @@
 import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
+#local_pc = "192.168.1.131"
 local_pc = ""
 port = 12345
 
 s.bind((local_pc, port))
-s.listen()
+s.listen(5)
 
 while True:
     print("Server Listening: ")
@@ -22,3 +23,8 @@ while True:
             
     except:
         print("Disconnected from : ", addr)
+        s.close()
+        client.close()
+
+s.close()
+client.close()
